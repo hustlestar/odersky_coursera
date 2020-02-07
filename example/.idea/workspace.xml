@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d3679db-b2df-470b-a471-0c3558977e06" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="progfun1-example" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="progfun1-example" type="f1a62948:ProjectNode" />
+                <item name="progfun1-example" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XLFkwT9xIvfwuEEJcRVsBpUBRy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="sbt.project.settings.configurable" />
+  </component>
+  <component name="RunManager" selected="JUnit.ListsSuite">
+    <configuration name="ListsSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="progfun1-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="example" />
+      <option name="MAIN_CLASS_NAME" value="example.ListsSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListsSuite.max$u0020of$u0020a$u0020few$u0020numbers$u0020$u002810pts$u0029" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="progfun1-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="example" />
+      <option name="MAIN_CLASS_NAME" value="example.ListsSuite" />
+      <option name="METHOD_NAME" value="max$u0020of$u0020a$u0020few$u0020numbers$u0020$u002810pts$u0029" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ListsSuite" />
+        <item itemvalue="JUnit.ListsSuite.max$u0020of$u0020a$u0020few$u0020numbers$u0020$u002810pts$u0029" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="progfun1-example" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="example [file:/Users/yauhenim/JACK/example/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="progfun1-example-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="9429332676000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="102714806" />
+        <entry key="$PROJECT_DIR$/project/MOOCSettings.scala" value="598648594" />
+        <entry key="$PROJECT_DIR$/project/StudentTasks.scala" value="2255003577" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
+        <entry key="$PROJECT_DIR$/project/buildSettings.sbt" value="2649409897" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="2662701361" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d3679db-b2df-470b-a471-0c3558977e06" name="Default Changelist" comment="" />
+      <created>1580817614896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580817614896</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2104" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580818441997">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state x="2104" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1580818441997" />
+    <state x="2443" y="462" width="403" height="159" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1580818169437">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2443" y="462" width="403" height="159" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1580818169437" />
+    <state width="1878" height="263" key="GridCell.Tab.0.bottom" timestamp="1580882808545">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state width="1878" height="263" key="GridCell.Tab.0.bottom/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1580882808545" />
+    <state width="1878" height="263" key="GridCell.Tab.0.center" timestamp="1580882808544">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state width="1878" height="263" key="GridCell.Tab.0.center/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1580882808544" />
+    <state width="1878" height="263" key="GridCell.Tab.0.left" timestamp="1580882808543">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state width="1878" height="263" key="GridCell.Tab.0.left/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1580882808543" />
+    <state width="1878" height="263" key="GridCell.Tab.0.right" timestamp="1580882808545">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state width="1878" height="263" key="GridCell.Tab.0.right/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1580882808545" />
+    <state x="2425" y="408" width="462" height="493" key="NewModule_or_Project.wizard" timestamp="1580817797155">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2425" y="408" width="462" height="493" key="NewModule_or_Project.wizard/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1580817797155" />
+    <state x="2149" y="185" key="SettingsEditor" timestamp="1580819705000">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state x="2149" y="179" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1580818350140" />
+    <state x="2149" y="179" key="SettingsEditor/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1580817737617" />
+    <state x="2149" y="185" key="SettingsEditor/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1580819705000" />
+    <state x="2273" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1580817747296">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2273" y="364" key="com.intellij.ide.util.TipDialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1580817747296" />
+    <state x="519" y="369" key="com.intellij.ide.util.TipDialog/1680.23.1920.977/0.23.1680.1027@0.23.1680.1027" timestamp="1580817617446" />
+  </component>
+</project>
