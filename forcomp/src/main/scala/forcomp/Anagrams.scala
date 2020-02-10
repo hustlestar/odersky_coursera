@@ -83,11 +83,11 @@ object Anagrams extends AnagramsInterface {
    * in the example above could have been displayed in some other order.
    */
   def combinations(occurrences: Occurrences): List[Occurrences] = {
-    List() :: (
-      for {(char, count) <- occurrences
-           n <- 1 to count
-           rest <- combinations(occurrences.filter(_._1 < char))
-           } yield rest ::: List((char, n)))
+    List() :: (for {
+      (char, count) <- occurrences
+      n <- 1 to count
+      rest <- combinations(occurrences.filter(_._1 < char))
+    } yield rest ++ List((char, n)))
   }
 
   /** Subtracts occurrence list `y` from occurrence list `x`.
@@ -146,12 +146,18 @@ object Anagrams extends AnagramsInterface {
    * Note: There is only one anagram of an empty sentence.
    */
   def sentenceAnagrams(sentence: Sentence): List[Sentence] = {
-    def anaHelper(oc: Occurrences): List[Sentence] = if (oc.isEmpty) List[Sentence](List[Word]()) else
-      for { x <- combinations(oc);
-            y <- dictionaryByOccurrences.getOrElse(x, Nil)
-            z <- anaHelper(subtract(oc, x))
-            } yield y :: z
-    anaHelper(sentenceOccurrences(sentence))
+    def anagrams(occurrences: Occurrences): List[Sentence] = {
+      occurrences match {
+        case List() => List(Nil)
+        case _ => for {
+          combination <- combinations(occurrences)
+          word <- dictionaryByOccurrences.withDefaultValue(Nil)(combination)
+          sentence <- anagrams(subtract(occurrences, combination))
+        } yield word :: sentence
+      }
+    }
+
+    anagrams(sentenceOccurrences(sentence))
   }
 }
 
